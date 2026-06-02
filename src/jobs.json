@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": "1", 
+      "id": "1",
       "title": "Senior Vue Dev",
       "type": "Full-Time",
       "location": "Boston, MA",
@@ -83,6 +83,21 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "title": "Vuejs-Developer",
+      "type": "Internship",
+      "location": "Atlanta",
+      "description": "Fulltime vue js developer",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Itellit",
+        "description": "Productbase company",
+        "contactEmail": "Itellit@yahoo.com",
+        "contactPhone": "444-333-666-1111"
+      },
+      "id": "fDf69n5UWaU"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
