@@ -15,7 +15,7 @@ export default defineConfig({
     port: 3000,
     proxy:{
       '/api':{
-        target: 'https://vue-json-backend-server.onrender.com/jobs',
+        target: 'https://vue-json-backend-server-1.onrender.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/,'')
       }
